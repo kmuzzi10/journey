@@ -9,13 +9,6 @@ function LavenderPage({ onNext }: LavenderPageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-purple-50/20 to-white flex flex-col items-center justify-center px-4 py-20 animate-fade-in relative overflow-hidden">
       <FloatingHearts fillColor="#a78bfa" />
-      
-      {/* Scroll down message */}
-      <div className="absolute top-8 left-0 right-0 text-center z-20 animate-slide-up">
-        <p className="text-lg md:text-xl text-gray-600 font-light italic">
-          Please scroll down your highness
-        </p>
-      </div>
 
       <div className="max-w-4xl w-full flex flex-col items-center gap-12 relative z-10">
         <div className="relative w-full max-w-md aspect-square animate-float">

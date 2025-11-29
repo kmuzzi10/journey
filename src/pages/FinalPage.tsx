@@ -1,4 +1,4 @@
-import { Heart, Sparkles, Flower2 } from 'lucide-react';
+import { Heart, Sparkles } from 'lucide-react';
 import FloatingHearts from '../components/FloatingHearts';
 
 function FinalPage() {
@@ -6,15 +6,11 @@ function FinalPage() {
     <div className="min-h-screen bg-gradient-to-br from-pink-50/30 via-white to-purple-50/30 flex flex-col items-center justify-center px-4 py-20 animate-fade-in relative overflow-hidden">
       <FloatingHearts gradientColors={['#ec4899', '#a78bfa', '#fbbf24', '#fb7185', '#60a5fa']} />
       <div className="max-w-4xl w-full flex flex-col items-center gap-12 text-center relative z-10">
-        <div className="relative flex items-center justify-center gap-6">
+        <div className="relative flex items-center justify-center">
           <Heart
             size={120}
             className="text-pink-400 animate-pulse-slow drop-shadow-lg"
             fill="currentColor"
-          />
-          <Flower2
-            size={100}
-            className="text-blue-400 animate-float-slow drop-shadow-lg"
           />
           <Sparkles
             size={40}
